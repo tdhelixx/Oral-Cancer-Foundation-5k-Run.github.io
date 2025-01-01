@@ -5,9 +5,9 @@ body {
     color: #333;
 }
 header {
-    background-color: #00274d;
+    background-color: #000000;
     color: white;
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
 header nav {
     display: flex;
@@ -27,11 +27,12 @@ header nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 30px;
 }
 .hero {
     background: url('background-image.jpg') no-repeat center center/cover;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 4rem 2rem;
     position: relative;
 }
@@ -67,7 +68,7 @@ header nav ul li a {
     cursor: pointer;
 }
 .content {
-    padding: 2rem;
+    padding: 1rem;
     background-color: #f9f9f9;
 }
 .content h2 {
