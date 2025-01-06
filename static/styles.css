@@ -7,7 +7,7 @@ body {
 header {
     background-color: #000000;
     color: white;
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 header nav {
     display: flex;
@@ -33,7 +33,7 @@ header nav ul li a {
     background: url('background-image.jpg') no-repeat center center/cover;
     text-align: center;
     color: rgb(255, 255, 255);
-    padding: 4rem 2rem;
+    padding: 1rem 0rem;
     position: relative;
 }
 .hero::after {
