@@ -66,6 +66,13 @@ header nav ul li a {
 .left_padded_div {
     margin-left: var(--left_pad);
 }
+.center_img {
+    /* display: block;
+    margin: auto;
+    width: 90%; */
+    margin-left: 14rem;
+}
+
 
 h2 {
     font-size: 2.1rem;
@@ -102,6 +109,12 @@ p {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
+}
+#runner {
+    width: var(--left_pad);
+    height: auto;
+    float: left;
+    padding: 2rem;
 }
 #logo {
     width: var(--left_pad);
