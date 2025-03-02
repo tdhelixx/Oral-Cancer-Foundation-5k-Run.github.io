@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
-    --left_pad: 20rem;
+    --left_pad: 32rem;
 }
 
 body {
@@ -40,7 +40,7 @@ header nav ul li a {
     color: rgb(255, 255, 255);
     padding: 1rem 0rem;
     position: relative;
-    background-image: url("hi.jpg");
+    background-image: url("Copyright_images/hi.jpg");
     background-position: 0% 26%;
     height: 17rem;
     background-size: 50% cover;
@@ -56,9 +56,12 @@ header nav ul li a {
     z-index: 1;
 }
 .hero h1 {
-    position: relative;
     z-index: 2;
     font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .left_padded_div {
     margin-left: var(--left_pad);
