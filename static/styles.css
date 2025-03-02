@@ -40,6 +40,10 @@ header nav ul li a {
     color: rgb(255, 255, 255);
     padding: 1rem 0rem;
     position: relative;
+    background-image: url("hi.jpg");
+    background-position: 0% 26%;
+    height: 17rem;
+    background-size: 50% cover;
 }
 .hero::after {
     content: '';
