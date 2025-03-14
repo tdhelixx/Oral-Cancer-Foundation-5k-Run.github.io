@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!-- Things to do:
+ - need to get rid of gap next to map on website
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,26 +24,36 @@
         <h1 class="libre-baskerville-bold">Oral Cancer Foundation 5K Run</h1>
     </section>
     <!-- iframe Share->Embed->HTML -->
-    <div>
-        <img id="runner" src="static/Copyright_images/child.jpg">
-        <h2>What is it?</h2>
-        <p class="raleway-font">The Oral Cancer Foundation will host a 5K Run to encourage oral cancer awareness and to fundraise money to promote OCF’s mission.</p>
-        <p class="raleway-font">Location:
-        <br>Date:
-        <br>Registration Time:
-        <br>Event Timeline:
-        <br>Walk Start Time:
-        <br>End Time:
-        <br>Lead Coordinator Info: dsacharczyk6@gmail.com
-        <br></p>
+    <div class="main-content">
+        <div class="main-images">
+            <img id="runner" src="static/Copyright_images/shutterstock_2408776343.jpg">
+        </div>
+    
+        <div class="main-info"> 
+            <!-- Information about the marathon -->
+            <h2>What is it?</h2>
+            <p class="raleway-font">The Oral Cancer Foundation will host a 5K Run to encourage oral cancer awareness and to fundraise money to promote OCF’s mission.</p>
+            <p class="raleway-font"><b>Location:</b> 
+            <br><b>Date:</b>
+            <br><b>Registration Time:</b>
+            <br><b>Event Timeline:</b>
+            <br><b>Walk Start Time:</b>
+            <br><b>End Time:</b>
+            <br><b>Contact:</b> Desiree Sacharczyk
+            <br><b>Phone:</b> (832) 205-1494
+            <br> <b>Email:</b> dsacharczyk6@gmail.com
+            <br></p>
+            <!-- BIG COLOR BUTTON TO CLICK TO SIGN UP !!!!!!!!!! - improve user experience -->
+            <a href="participants.html"><button id="sign-up-button" href="participants.html">Register Here</button></a>
+
+    
+            <!-- Course Map  -->
+            <h2>Course Map</h2>
+            <img id="course_map" src="static/course-map.png">
+        </div>
+    
     </div>
 
-
-    <div class="center_img">
-        <h2>Course Map</h2>
-        <img id="course_map" src="static/course-map.png">
-        <!-- add spacing? -->
-    </div>
     <div>
         <img id="logo" src="static/OCF-logo.png">
         <h2 class="">About the OCF</h2>
