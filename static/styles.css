@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
-    --left_pad: 32rem;
+    --left_pad: 30rem;
 }
 
 /* body {
@@ -78,7 +78,14 @@ header nav ul li a {
     margin-left: 14rem;
     margin-top: 5rem;
 }
-
+td {
+    padding: 0.5rem;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
 
 h2 {
     font-size: 2.1rem;
@@ -86,7 +93,7 @@ h2 {
     margin-bottom: 0rem;
 }
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* margin-top: 1rem; */
     margin-bottom: 2rem;
 }
@@ -107,6 +114,10 @@ p {
 }
 .main-content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Adjust as needed */
+    align-items: flex-start;
+
 }
 .main-images {
     /* background-color: blue; */
@@ -114,6 +125,7 @@ p {
     display: flex;
     align-items:flex-start;
     justify-content: center;
+    max-width: 50%;
 
 }
 .title_div {
@@ -124,8 +136,9 @@ p {
 }
 .main-info {
     /* background-color: red; */
-    width: 60%;
+    width: 50%;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
 }
 .dm-serif-text-regular {
@@ -135,7 +148,9 @@ p {
 }
 #course-map {
     margin-top: 10%;
+    object-fit: cover;
     max-width: 80%;
+    height: auto;
     /* margin-left: 7%; */
     /* height: auto; */
 }
@@ -165,8 +180,9 @@ p {
 }
 #logo {
     width: var(--left_pad);
-    height: auto;
+    /* height: auto; */
     float: left;
+    
 }
 div.partnerships_div {
     clear: both;
