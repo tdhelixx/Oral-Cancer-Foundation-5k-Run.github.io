@@ -62,7 +62,7 @@ header nav ul li a {
 .hero h1 {
     z-index: 2;
     font-size: 3rem;
-    color: rgb(255, 52, 52);
+    color: rgb(0, 0, 0);
     max-width: 100%;
     width: 100%;  /* Allow the width to auto adjust */
     /* overflow-wrap: break-word; */
@@ -140,8 +140,10 @@ p {
     /* background-color: blue; */
     width: 40%;
     display: flex;
-    align-items:flex-start;
-    justify-content: center;
+    justify-content: space-between; /* Adds space between images */
+    align-items: center; /* Align images vertically */
+    gap: 2rem; /* Adds space between the images */
+    flex-wrap: wrap;
     max-width: 50%;
 
 }
@@ -173,7 +175,7 @@ p {
 }
 #volunteer {
     margin-top: 8%;
-    max-width: 80%;
+    max-width: 80%; 
     /* margin-left: 7%; */
     /* height: auto; */
 }
@@ -212,20 +214,41 @@ div.partnerships_div {
     font-size: 3rem;
     text-align: center;
     color: white;
+    padding-top: 1rem;
+    /* margin-top: 2rem; */
+}
+#runner {
+    margin-top: 20%;
+    max-width: 90%;
+    margin-left: 3%;
+    margin-right: 7%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
 }
 .flex-container {
     display: flex;
     flex-wrap: wrap;
 }
+#slogan {
+    z-index: 2;
+    font-size: 2rem;
+    font-family: 'Libre Baskerville', serif;
+    max-width: 90%;
+    width: 100%;
+    margin:0;
+    color: rgb(213, 54, 26);
+    overflow-wrap: break-word;
+    text-align: right; /* Align text to the left */
+    padding-left: 5%;
+}
 .partnership {
     width:17rem;
     height:17rem;
-    border-radius: 1rem;
+    border-radius: 3rem;
     background-color:white;
     margin-left: 2rem;
 }
 
-#ppom_logo, #ppom_logo2 {
+#ppom_logo {
     width:80%;
     height:auto;
     display: block;
